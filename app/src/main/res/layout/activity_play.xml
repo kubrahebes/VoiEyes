@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ed8d68"
+    android:layout_height="match_parent"
+    tools:context="com.example.recodedharran.voieyes.PlayActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/img_fjords"
+        android:id="@+id/relativ2"
+        >
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="12dp"
+            android:background="@drawable/ic_back"/>
+        <Button
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:background="@drawable/magnifying_glass_finder"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="11dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/relativ2"
+       android:id="@+id/relativ"
+
+        android:layout_height="wrap_content">
+<SeekBar
+    android:layout_width="match_parent"
+    android:layout_height="15dp"
+    
+    android:id="@+id/seekbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        tools:text="Murat BÜYÜK"
+        android:id="@+id/name"
+        android:layout_below="@+id/seekbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        />
+
+        <TextView
+            android:id="@+id/detay"
+            android:layout_below="@+id/share_name"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            tools:text="SES ADI"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_below="@+id/relativ"
+        android:background="@drawable/oval_4"
+        android:layout_marginTop="26dp">
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/oval_5"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp">
+            <Button
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:background="@drawable/undo_button1"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="127dp"
+            android:layout_height="127dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/oval_6"
+            >
+
+            <Button
+                android:id="@+id/play"
+                android:layout_width="104dp"
+                android:layout_height="104dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/stop" />
+            
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/oval_5"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="34dp">
+            <Button
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:background="@drawable/undo_button"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

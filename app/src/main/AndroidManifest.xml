@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recodedharran.voieyes">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/voieyes"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityAcilisEkrani">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityGrisSayfasi" />
+        <activity
+            android:name=".ActivityAnaSayfa"
+            android:label="@string/title_activity_ana_sayfa"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ActivityVoiEkle" />
+        <activity android:name=".ActivityKategoriDetay" />
+        <activity android:name=".ActivityTrendlerDetay" />
+        <activity android:name=".ActivityProfilSayfasi" />
+        <activity android:name=".PlayActivity"></activity>
+        <activity android:name=".SesliAramaActivity"></activity>
+        <activity android:name=".ActivityProfilSayfasi2"></activity>
+    </application>
+
+</manifest>

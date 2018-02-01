@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.recodedharran.voieyes.ActivityProfilSayfasi">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="#131212"
+                android:id="@+id/uye"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/login"
+                android:text="Uye Olma: Uygulamaya Sadece Gmail ile uye olunmaktadir. "
+                android:textSize="15sp" />
+
+            <TextView
+                android:textColor="#131212"
+                android:id="@+id/istek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/uye"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/istek"
+                android:text="Sesli istek:  Aramak istediginiz herhangi bir seyi mikrofon ikonundan sesli olarak aramaniz yeterlidir. "
+                android:textSize="15dp" />
+
+            <TextView
+                android:textColor="#131212"
+                android:id="@+id/voiekle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/istek"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/istek"
+                android:text="Istekleri Yanitlama:  Diger kullanicilarin biraktiklari istekleri yanitlamak icin Voi Ekle sayfasina seslendirdiginiz sesleri kolaylikla ekleye bilirsiniz."
+                android:textSize="15sp" />
+
+            <TextView
+                android:textColor="#131212"
+                android:id="@+id/trend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/voiekle"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/trend"
+                android:text="Trendler Sayfasi :  Her hafta haftanin en cok dinlenen sesleri trendler sayfasinda paylasilacaktir."
+                android:textSize="15sp" />
+
+            <TextView
+                android:textColor="#131212"
+                android:id="@+id/kategori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/trend"
+                android:layout_margin="5dp"
+                android:drawableLeft="@drawable/kategori"
+                android:text="Kategori Sayfasi : Yeni ilgi alanlari kesfetmek icin Kategoriler sayfasindan kolaylikla kullanabilirsiniz."
+                android:textSize="15sp" />
+            <TextView
+                android:textColor="#131212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/profil"
+                android:layout_below="@+id/kategori"
+                android:text="Profilim : Paylastigimiz Sesleri Profil sayfasindan gorebilirsiniz."
+                />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

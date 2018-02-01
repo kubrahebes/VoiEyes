@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "518777054563",
+    "firebase_url": "https://voieyes-7b4ad.firebaseio.com",
+    "project_id": "voieyes-7b4ad",
+    "storage_bucket": "voieyes-7b4ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518777054563:android:76d86c611e140743",
+        "android_client_info": {
+          "package_name": "com.example.recodedharran.voieyes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518777054563-60e981rlvkou5ocumukf9r4dmlnqbqa7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recodedharran.voieyes",
+            "certificate_hash": "b628f80ce6d0c44d63e774ed2a6863ca55af7ba4"
+          }
+        },
+        {
+          "client_id": "518777054563-8a58rb43khneape6fbo5upmplhrcqpd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArBFpi21xN7uPclTtBXpynfIYh7QIt_CY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518777054563-8a58rb43khneape6fbo5upmplhrcqpd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

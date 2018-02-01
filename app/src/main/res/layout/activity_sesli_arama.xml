@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/sesli_arama"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:background="@drawable/rectangle2">
+
+        <Button
+            android:id="@+id/yeni_arama"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/group"
+
+
+            ></Button>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/sonuclar_liste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sesli_arama"></ListView>
+
+    <RelativeLayout
+        android:id="@+id/relativ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sonuclar_liste"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/oval"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/notfound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="18dp"
+            android:textColor="#111"
+            android:fontFamily="sans-serif-light"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnok"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/notfound"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/ic_ok_mark"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

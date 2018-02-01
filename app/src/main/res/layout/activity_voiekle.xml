@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ed8d68">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/ic_back" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/back"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:background="@drawable/magnifying_glass_finder" />
+
+    <Button
+        android:id="@+id/add_foto"
+        android:layout_width="106dp"
+        android:layout_height="106dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:background="@drawable/group_2" />
+
+    <TextView
+        android:id="@+id/share_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_foto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:gravity="center_horizontal"
+        android:text="Murat BÜYÜK"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/share_name"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="muratbuyuk"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/add_kategori"
+        android:layout_width="301dp"
+        android:layout_height="49dp"
+        android:layout_alignLeft="@+id/add_title"
+        android:layout_alignStart="@+id/add_title"
+        android:layout_below="@+id/adress"
+        android:layout_marginTop="60dp"
+        android:background="#e96f61"
+        android:text="KATEGORI"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:maxLines="1"
+        android:gravity="center"
+        android:id="@+id/add_title"
+        android:layout_width="301dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/add_kategori"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#e96f61"
+        android:text="BASLIK"
+        android:textSize="25sp"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:id="@+id/add_voi"
+        android:layout_width="301dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/add_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+android:textColor="#fff"
+        android:text="SES EKLE"
+        android:textSize="25sp"
+        android:background="#e96f61" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="124dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/add_voi"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="10dp"
+        android:background="#ff6d41"
+        android:text="EKLE"
+        android:textColor="#ffff"
+        android:textSize="25sp" />
+</RelativeLayout>

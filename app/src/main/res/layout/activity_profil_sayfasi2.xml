@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.recodedharran.voieyes.ActivityProfilSayfasi">
+
+    <RelativeLayout
+        android:id="@+id/relativ"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:background="@drawable/rectangle"
+
+        >
+        <Button
+            android:id="@+id/ic_back"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="12dp"
+
+            android:background="@drawable/ic_back" />
+
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/magnifying_glass_finder" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ornekprofil"
+            app:civ_border_color="#FFf"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/kullanici_adi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Ayse Nurdan"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/aciklama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kullanici_adi"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="10sp"
+            android:text="Muhendis Olma Yolunda.." />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/aciklama"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ses_ekle" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_below="@+id/relativ"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@drawable/bg"
+        android:id="@+id/relativ2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#e97162"
+            android:text="Paylaşılan Sesler"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/share_voi_list"
+        android:layout_below="@+id/relativ2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</RelativeLayout>
